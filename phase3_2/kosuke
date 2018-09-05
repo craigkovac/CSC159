@@ -1,0 +1,24 @@
+
+
+SystemProc
+
+TimerHandler 
+   Kernel
+
+
+Type C or E 
+
+Cooker or Eater
+
+Mutex->Kernel
+
+Kernel 
+
+check handler -> 
+               MutexUnlockHandler
+               MutexLockHandler
+
+ProcSchedule()
+ProcLoader()
+
+
